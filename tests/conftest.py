@@ -15,7 +15,8 @@ def category_one():
                 100000.50,
                 50,
             ),
-            Product("Siemens A50", "Очень старый телефон Siemens A50", 300, 10),
+            Product("Siemens A50", "Очень старый телефон Siemens A50",
+                    300, 10),
         ],
     )
 
