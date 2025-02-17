@@ -1,3 +1,6 @@
+from src.product import Product
+from src.category import Category
+
 def test_product_init(product_one):
     assert product_one.name == "Samsung S24 Ultra"
     assert product_one.description == ("Замечательный новый "
