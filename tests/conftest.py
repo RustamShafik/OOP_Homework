@@ -29,3 +29,13 @@ def product_one():
         price=100000.50,
         quantity=50,
     )
+
+
+@pytest.fixture
+def product_two():
+    return Product(
+        name="Playstation 5 Slim",
+        description="Модернизированная версия PS5",
+        price=49000.00,
+        quantity=12,
+    )

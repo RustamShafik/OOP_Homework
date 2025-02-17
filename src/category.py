@@ -13,6 +13,22 @@ class Category:
                  products: List[Product] = None):
         self.name = name
         self.description = description
-        self.products = products if products else []
+        self.__products = products if products else []
         Category.product_count += len(products) if products is not None else 0
         Category.category_count += 1
+
+    def add_product(self, product: Product):
+        if isinstance(product, Product):
+            self.__products.append(product)
+
+    @property
+    def products(self):
+        list = []
+        for product in self.__products:
+            list.append(f"{product.name}, {product.price} руб. "
+                        f"Остаток: {product.quantity} шт.")
+        return list
+
+    @property
+    def products_list(self):
+        return self.__products
