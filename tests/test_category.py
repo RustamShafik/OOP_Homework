@@ -16,3 +16,7 @@ def test_add_product(product_two, category_one):
     assert (
         category_one.products_list[2].name == "Playstation 5 Slim"
     )  # Используется геттер products_list
+
+
+def test_str_presentation(category_one):
+    assert str(category_one) == "Смартфон, количество продуктов: 60 шт."

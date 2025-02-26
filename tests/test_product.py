@@ -16,7 +16,7 @@ def test_add_new_product():  # Создаем новый экземпляр кл
         "price": 95000.00,
         "quantity": 25,
         "description": "Самый новый смартфон от Samsung "
-                       "с улучшенной камерой и процессором.",
+        "с улучшенной камерой и процессором.",
     }
     new_product = Product.new_product(product_data)
     assert new_product.name == "Samsung Galaxy S24"
@@ -28,3 +28,7 @@ def test_price_lower_than_zero(product_one):
     assert product_one.price == 175000
     product_one.price = 0
     assert product_one.price == 175000
+
+
+def test_adding_products(product_one, product_two):
+    assert product_one + product_two == 5588025.0

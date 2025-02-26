@@ -1,4 +1,5 @@
 from typing import List
+
 from src.product import Product
 
 
@@ -9,8 +10,7 @@ class Category:
     category_count: int = 0
     product_count: int = 0
 
-    def __init__(self, name: str, description: str,
-                 products: List[Product] = None):
+    def __init__(self, name: str, description: str, products: List[Product] = None):
         self.name = name
         self.description = description
         self.__products = products if products else []
@@ -21,13 +21,16 @@ class Category:
         if isinstance(product, Product):
             self.__products.append(product)
 
+    def __str__(self):
+        return (
+            f"{self.name}, "
+            f"количество продуктов: "
+            f"{sum(product.quantity for product in self.__products)} шт."
+        )
+
     @property
     def products(self):
-        list = []
-        for product in self.__products:
-            list.append(f"{product.name}, {product.price} руб. "
-                        f"Остаток: {product.quantity} шт.")
-        return list
+        return [str(product) for product in self.__products]
 
     @property
     def products_list(self):
