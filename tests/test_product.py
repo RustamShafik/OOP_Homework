@@ -1,4 +1,6 @@
-from src.product import Product
+import pytest
+
+from src.product import Product, Smartphone
 
 
 def test_product_init(product_one):
@@ -32,3 +34,26 @@ def test_price_lower_than_zero(product_one):
 
 def test_adding_products(product_one, product_two):
     assert product_one + product_two == 5588025.0
+
+
+def test_adding_different_product_types_error(product_one, product_three):
+    with pytest.raises(TypeError):
+        product_three + product_one
+
+
+def test_add_new_smartphone_class_product():
+    # Создаем новый экземпляр класса Smartphone
+    product_data = {
+        "name": "Samsung Galaxy S24",
+        "price": 95000.00,
+        "quantity": 35,
+        "description": "Самый новый смартфон от Samsung "
+        "с улучшенной камерой и процессором.",
+        "efficiency": "top",
+        "model": "Samsung 2024",
+        "memory": 256,
+        "color": "желтый",
+    }
+    new_product = Smartphone.new_product(product_data)
+    assert new_product.name == "Samsung Galaxy S24"
+    assert new_product.quantity == 35

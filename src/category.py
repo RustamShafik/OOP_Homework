@@ -18,8 +18,10 @@ class Category:
         Category.category_count += 1
 
     def add_product(self, product: Product):
-        if isinstance(product, Product):
-            self.__products.append(product)
+        if not isinstance(product, Product):
+            # Сначала проверяем, является ли продуктом
+            raise TypeError("Можно добавлять только объекты класса Product")
+        self.__products.append(product)  # Добавляем только после проверки
 
     def __str__(self):
         return (
