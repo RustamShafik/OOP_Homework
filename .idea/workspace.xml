@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f9b10ca-4661-42a7-9329-7d53ed16dbff" name="Changes" comment="16.2 Task 1 done">
+    <list default="true" id="3f9b10ca-4661-42a7-9329-7d53ed16dbff" name="Changes" comment="16.2 Task 2 done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/product.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/product.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_product.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_product.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +65,7 @@
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python tests.Python tests for test_category.test_add_different_classes">
     <configuration name="Python tests for test_category.test_add_different_classes" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Homework_14_1" />
       <option name="ENV_FILES" value="" />
@@ -209,7 +209,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741160767195</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="16.2 Task 2 done">
+      <option name="closed" value="true" />
+      <created>1741161889759</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1741161889759</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -233,6 +241,7 @@
     <MESSAGE value="All done, 15.1" />
     <MESSAGE value="All done, 16.1" />
     <MESSAGE value="16.2 Task 1 done" />
-    <option name="LAST_COMMIT_MESSAGE" value="16.2 Task 1 done" />
+    <MESSAGE value="16.2 Task 2 done" />
+    <option name="LAST_COMMIT_MESSAGE" value="16.2 Task 2 done" />
   </component>
 </project>
