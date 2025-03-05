@@ -6,8 +6,16 @@ class BaseProduct(ABC):
     def new_product(self):
         pass
 
+class MixinPrint:
+    def __init__(self):
+        print(repr(self))
+    def __repr__(self):
+        return f'{self.__class__.__name__}({self.name}, {self.description}, {self.price}, {self.quantity})'
 
-class Product(BaseProduct):
+
+
+
+class Product(MixinPrint, BaseProduct):
     name: str
     description: str
     price: float
@@ -18,6 +26,7 @@ class Product(BaseProduct):
         self.description = description
         self.__price = price
         self.quantity = quantity
+        super().__init__()
 
     def __str__(self):
         return f"{self.name}, {self.price} руб. Остаток: {self.quantity} шт."
