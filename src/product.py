@@ -1,4 +1,13 @@
-class Product:
+from abc import ABC, abstractmethod
+
+class BaseProduct(ABC):
+
+    @abstractmethod
+    def new_product(self):
+        pass
+
+
+class Product(BaseProduct):
     name: str
     description: str
     price: float

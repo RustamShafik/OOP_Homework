@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f9b10ca-4661-42a7-9329-7d53ed16dbff" name="Changes" comment="All done, 15.1">
+    <list default="true" id="3f9b10ca-4661-42a7-9329-7d53ed16dbff" name="Changes" comment="All done, 16.1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/category.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/category.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/product.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/product.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_category.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_category.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_product.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_product.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,11 +62,11 @@
     "Python tests.Python tests in test_product.py.executor": "Run",
     "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "develop__16__1",
+    "git-widget-placeholder": "develop__16__2",
     "ignore.virus.scanning.warn.message": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Python tests.Python tests for test_category.test_add_different_classes">
+  <component name="RunManager">
     <configuration name="Python tests for test_category.test_add_different_classes" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Homework_14_1" />
       <option name="ENV_FILES" value="" />
@@ -199,7 +194,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740541416801</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="All done, 16.1">
+      <option name="closed" value="true" />
+      <created>1740982871643</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1740982871643</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -221,6 +224,7 @@
     <MESSAGE value="The End Complete&#10;Tests ready for delivery" />
     <MESSAGE value="isinstance check added" />
     <MESSAGE value="All done, 15.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="All done, 15.1" />
+    <MESSAGE value="All done, 16.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="All done, 16.1" />
   </component>
 </project>
