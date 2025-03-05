@@ -1,6 +1,6 @@
 import pytest
 
-from src.product import Product, Smartphone, MixinPrint
+from src.product import Product, Smartphone
 
 
 def test_product_init(product_one):
@@ -58,6 +58,7 @@ def test_add_new_smartphone_class_product():
     assert new_product.name == "Samsung Galaxy S24"
     assert new_product.quantity == 35
 
+
 def test_mixin_print(capsys):
     # Создаем новый экземпляр класса продукта
     product_data = {
@@ -69,5 +70,8 @@ def test_mixin_print(capsys):
     }
     new_product = Product.new_product(product_data)
     message = capsys.readouterr()
-    assert message.out.strip() == ('Product(Samsung Galaxy S24, Самый новый смартфон от Samsung '
-                                   'с улучшенной камерой и процессором., 95000.0, 25)')
+    assert message.out.strip() == ('Product(Samsung Galaxy S24, '
+                                   'Самый новый смартфон '
+                                   'от Samsung '
+                                   'с улучшенной камерой'
+                                   ' и процессором., 95000.0, 25)')
