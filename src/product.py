@@ -13,8 +13,10 @@ class MixinPrint:
         print(repr(self))
 
     def __repr__(self):
-        return (f"{self.__class__.__name__}({self.name}, {self.description}, "
-                f"{self.price}, {self.quantity})")
+        return (
+            f"{self.__class__.__name__}({self.name}, {self.description}, "
+            f"{self.price}, {self.quantity})"
+        )
 
 
 class Product(MixinPrint, BaseProduct):
@@ -23,15 +25,14 @@ class Product(MixinPrint, BaseProduct):
     price: float
     quantity: int
 
-    def __init__(self, name: str, description: str,
-                 price: float, quantity: int):
+    def __init__(self, name: str, description: str, price: float, quantity: int):
         self.name = name
         self.description = description
         self.__price = price
         self.quantity = quantity
         super().__init__()
         if self.quantity == 0:
-            print('Товар с нулевым количеством не может быть добавлен.')
+            print("Товар с нулевым количеством не может быть добавлен.")
             raise ValueError
 
     def __str__(self):
@@ -40,8 +41,7 @@ class Product(MixinPrint, BaseProduct):
     def __add__(self, other):
         # if type(other) == type(self):
         if isinstance(other, type(self)):
-            return ((self.quantity * self.price) +
-                    (other.quantity * other.price))
+            return (self.quantity * self.price) + (other.quantity * other.price)
         raise TypeError
 
     @classmethod

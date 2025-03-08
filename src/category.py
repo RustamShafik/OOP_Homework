@@ -10,8 +10,7 @@ class Category:
     category_count: int = 0
     product_count: int = 0
 
-    def __init__(self, name: str, description: str,
-                 products: List[Product] = None):
+    def __init__(self, name: str, description: str, products: List[Product] = None):
         self.name = name
         self.description = description
         self.__products = products if products else []
@@ -48,5 +47,3 @@ class Category:
             return average_price
         except ZeroDivisionError:
             return 0
-
-

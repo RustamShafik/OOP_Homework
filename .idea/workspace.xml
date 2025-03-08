@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f9b10ca-4661-42a7-9329-7d53ed16dbff" name="Changes" comment="17_1 Tasks 1 and 2 ready">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="3f9b10ca-4661-42a7-9329-7d53ed16dbff" name="Changes" comment="17_1 Tests ready">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/category.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/category.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/product.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/product.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/conftest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/test_category.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_category.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/test_product.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_product.py" afterDir="false" />
@@ -244,7 +246,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741427472591</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="17_1 Tests ready">
+      <option name="closed" value="true" />
+      <created>1741430399961</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1741430399961</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -272,6 +282,7 @@
     <MESSAGE value="16.2 MixinPrint added" />
     <MESSAGE value="16.2 All done" />
     <MESSAGE value="17_1 Tasks 1 and 2 ready" />
-    <option name="LAST_COMMIT_MESSAGE" value="17_1 Tasks 1 and 2 ready" />
+    <MESSAGE value="17_1 Tests ready" />
+    <option name="LAST_COMMIT_MESSAGE" value="17_1 Tests ready" />
   </component>
 </project>
