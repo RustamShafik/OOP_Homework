@@ -58,3 +58,8 @@ def product_three():
 @pytest.fixture
 def non_product_item():
     return 5  # или любой другой объект, не являющийся Product
+
+@pytest.fixture
+def no_products_category():
+    return Category("Пустая категория", "Категория без продуктов", [])
+

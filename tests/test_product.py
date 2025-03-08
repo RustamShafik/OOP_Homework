@@ -58,6 +58,14 @@ def test_add_new_smartphone_class_product():
     assert new_product.name == "Samsung Galaxy S24"
     assert new_product.quantity == 35
 
+def test_creating_zero_quantity_product():
+    with pytest.raises(ValueError):
+        new_product = Product(
+        name="Трава-мурава",
+        description="Прекрасная трава-мурава",
+        price=490.00,
+        quantity=0)
+
 
 def test_mixin_print(capsys):
     # Создаем новый экземпляр класса продукта

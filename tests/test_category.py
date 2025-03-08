@@ -28,3 +28,8 @@ def test_str_presentation(category_one):
 def test_add_different_class_to_list(category_one, non_product_item):
     with pytest.raises(TypeError):
         category_one.add_product(non_product_item)
+def test_zero_division_error(no_products_category):
+    assert no_products_category.middle_price() == 0
+
+def test_return_average_price(category_one):
+    assert category_one.middle_price() == 50150.25
