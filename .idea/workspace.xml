@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f9b10ca-4661-42a7-9329-7d53ed16dbff" name="Changes" comment="All done">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/category.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/category.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/product.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/product.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_product.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_product.py" afterDir="false" />
-    </list>
+    <list default="true" id="3f9b10ca-4661-42a7-9329-7d53ed16dbff" name="Changes" comment="17_1 Tests ready" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,23 +20,23 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="develop_16_2" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "RustamShafik"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;RustamShafik&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "git@github.com:RustamShafik/OOP_Homework.git",
-    "accountId": "77af475d-f33e-404b-a888-57846fe9e019"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:RustamShafik/OOP_Homework.git&quot;,
+    &quot;accountId&quot;: &quot;77af475d-f33e-404b-a888-57846fe9e019&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -57,12 +51,74 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
+    &quot;Python tests.Python tests for test_category.test_add_different_classes.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_category.test_add_product.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_product.test_add_new_product.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_category.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_product.py.executor&quot;: &quot;Run&quot;,
     &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.product.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;develop&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;develop__17__1&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RunManager" selected="Python tests.Python tests for test_category.test_add_different_classes">
+    <configuration name="Python tests for test_category.test_add_different_classes" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Homework_14_1" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_category.test_add_different_classes&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_category.test_add_product" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Homework_14_1" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_category.test_add_product&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_product.test_add_new_product" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Homework_14_1" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_product.test_add_new_product&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Python tests for test_category.test_add_different_classes" />
+        <item itemvalue="Python tests.Python tests for test_product.test_add_new_product" />
+        <item itemvalue="Python tests.Python tests for test_category.test_add_product" />
+        <item itemvalue="Python tests.Python tests for test_product.test_add_new_product" />
+        <item itemvalue="Python tests.Python tests for test_category.test_add_product" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -95,12 +151,139 @@
       <option name="project" value="LOCAL" />
       <updated>1739429437333</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="All done, formatting fixed">
+      <option name="closed" value="true" />
+      <created>1739434506335</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1739434506335</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Now on to the testing">
+      <option name="closed" value="true" />
+      <created>1739774285163</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1739774285163</updated>
+    </task>
+    <task id="LOCAL-00005" summary="The End Complete&#10;Tests ready for delivery">
+      <option name="closed" value="true" />
+      <created>1739779560902</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1739779560902</updated>
+    </task>
+    <task id="LOCAL-00006" summary="isinstance check added">
+      <option name="closed" value="true" />
+      <created>1739791058259</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1739791058259</updated>
+    </task>
+    <task id="LOCAL-00007" summary="All done, 15.1">
+      <option name="closed" value="true" />
+      <created>1740541416801</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1740541416801</updated>
+    </task>
+    <task id="LOCAL-00008" summary="All done, 16.1">
+      <option name="closed" value="true" />
+      <created>1740982871643</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1740982871643</updated>
+    </task>
+    <task id="LOCAL-00009" summary="16.2 Task 1 done">
+      <option name="closed" value="true" />
+      <created>1741160767195</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1741160767195</updated>
+    </task>
+    <task id="LOCAL-00010" summary="16.2 Task 2 done">
+      <option name="closed" value="true" />
+      <created>1741161889759</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1741161889759</updated>
+    </task>
+    <task id="LOCAL-00011" summary="16.2 MixinPrint added">
+      <option name="closed" value="true" />
+      <created>1741162624815</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1741162624815</updated>
+    </task>
+    <task id="LOCAL-00012" summary="16.2 All done">
+      <option name="closed" value="true" />
+      <created>1741163982006</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1741163982006</updated>
+    </task>
+    <task id="LOCAL-00013" summary="17_1 Tasks 1 and 2 ready">
+      <option name="closed" value="true" />
+      <created>1741427472591</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1741427472591</updated>
+    </task>
+    <task id="LOCAL-00014" summary="17_1 Tests ready">
+      <option name="closed" value="true" />
+      <created>1741430399961</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1741430399961</updated>
+    </task>
+    <task id="LOCAL-00015" summary="17_1 Tests ready">
+      <option name="closed" value="true" />
+      <created>1741430698799</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1741430698799</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="The first commit" />
     <MESSAGE value="All done" />
-    <option name="LAST_COMMIT_MESSAGE" value="All done" />
+    <MESSAGE value="All done, formatting fixed" />
+    <MESSAGE value="Now on to the testing" />
+    <MESSAGE value="The End Complete&#10;Tests ready for delivery" />
+    <MESSAGE value="isinstance check added" />
+    <MESSAGE value="All done, 15.1" />
+    <MESSAGE value="All done, 16.1" />
+    <MESSAGE value="16.2 Task 1 done" />
+    <MESSAGE value="16.2 Task 2 done" />
+    <MESSAGE value="16.2 MixinPrint added" />
+    <MESSAGE value="16.2 All done" />
+    <MESSAGE value="17_1 Tasks 1 and 2 ready" />
+    <MESSAGE value="17_1 Tests ready" />
+    <option name="LAST_COMMIT_MESSAGE" value="17_1 Tests ready" />
   </component>
 </project>
